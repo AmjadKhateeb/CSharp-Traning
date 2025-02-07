@@ -16,7 +16,7 @@ public class Kinetic_Sculpture : MonoBehaviour
 
     void Update()
     {
-        //amjad
+        
 
         float x = Mathf.Sin(Time.time);
         transform.rotation = Quaternion.Euler(new Vector3(x * 30f, x * 60f, x * 70f));
